@@ -12,19 +12,11 @@ namespace MyFirstGitHubApplication.Controllers
         {
             return View();
         }
-
-        public ActionResult About()
+        [HttpPost]
+        public void Index(String req)
         {
-            ViewBag.Message = "Your application description page.";
-            //shrikant
-            return View();
+
         }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
     }
 }
